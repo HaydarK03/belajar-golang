@@ -28,5 +28,4 @@ func variable() {
 	)
 	fmt.Println(FirstName)
 	fmt.Println(lastName)
-
 }
