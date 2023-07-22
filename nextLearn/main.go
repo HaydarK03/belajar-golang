@@ -9,4 +9,6 @@ func main() {
 	compare()
 	fmt.Println("boolean")
 	booleanOp()
+	fmt.Println("array")
+	array()
 }
