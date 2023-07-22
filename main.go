@@ -16,4 +16,5 @@ func main() {
 	variable()
 	//ini declaration
 	declaration()
+
 }

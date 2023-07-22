@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func math() {
 	var result = 19 + 20
 	fmt.Println(result)
 
