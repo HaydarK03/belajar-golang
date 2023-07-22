@@ -33,4 +33,6 @@ func math() {
 	g %= 10
 	fmt.Println(g)
 
+	//unary
+
 }
