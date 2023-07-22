@@ -25,6 +25,8 @@ func tipemap() {
 	fmt.Println(warung)
 	fmt.Println(len(warung))
 
+	//menghapus map
+
 	delete(warung, "sabun")
 
 	fmt.Println(warung)

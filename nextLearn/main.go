@@ -15,4 +15,6 @@ func main() {
 	slice()
 	fmt.Println("map")
 	tipemap()
+	fmt.Println("if")
+	ifOP()
 }
