@@ -7,4 +7,6 @@ func main() {
 
 	math()
 	compare()
+	fmt.Println("boolean")
+	booleanOp()
 }
