@@ -13,4 +13,6 @@ func main() {
 	array()
 	fmt.Println("slice")
 	slice()
+	fmt.Println("map")
+	tipemap()
 }
