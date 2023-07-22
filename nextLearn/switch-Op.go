@@ -22,6 +22,7 @@ func switchOp() {
 	// 	fmt.Println("terima kasih sudah menjadi member")
 	// }
 
+	//switch tanpa kondisi
 	length := len(customer)
 	switch {
 	case length > 13:
