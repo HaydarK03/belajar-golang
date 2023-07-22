@@ -6,5 +6,5 @@ func main() {
 	fmt.Println("jelll")
 
 	math()
-
+	compare()
 }
