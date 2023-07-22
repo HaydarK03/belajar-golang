@@ -12,7 +12,7 @@ func ifOP() {
 		fmt.Println("kamu siapa")
 	}
 
-	//if else statemen
+	//if else expresion
 	nama := "kamil"
 
 	if nama == "kamil" {
@@ -23,6 +23,7 @@ func ifOP() {
 		fmt.Println("lu siapa dah?")
 	}
 
+	//if short statemen
 	if length := len(nama); length >= 6 {
 		fmt.Println("pas mantap")
 	} else {

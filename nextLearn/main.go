@@ -17,4 +17,6 @@ func main() {
 	tipemap()
 	fmt.Println("if")
 	ifOP()
+	fmt.Println("switch")
+	switchOp()
 }
