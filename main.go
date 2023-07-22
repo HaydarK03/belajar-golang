@@ -1,12 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
-
 func main() {
 	//ini hello
-	fmt.Println("hello worlds")
+	hello()
 	//ini number
 	number()
 	//ini boolean
