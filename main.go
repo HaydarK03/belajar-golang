@@ -18,5 +18,5 @@ func main() {
 	//ini constant
 	constant()
 	//konversi tipe data
-	konversi()
+	tipekonversi()
 }

@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func konversi() {
+func tipekonversi() {
 	var nilai32 int32 = 100080
 	var nilai64 int64 = int64(nilai32)
 	var nilai16 int16 = int16(nilai32)
