@@ -11,4 +11,6 @@ func main() {
 	booleanOp()
 	fmt.Println("array")
 	array()
+	fmt.Println("slice")
+	slice()
 }

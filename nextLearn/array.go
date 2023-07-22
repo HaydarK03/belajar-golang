@@ -19,5 +19,7 @@ func array() {
 		14,
 	}
 	fmt.Println(values[2])
+
+	//mencari panjang array
 	fmt.Println(len(values))
 }
