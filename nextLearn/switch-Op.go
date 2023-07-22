@@ -14,11 +14,21 @@ func switchOp() {
 		fmt.Println("stand by")
 	}
 
-	// fmt.Println(len(customer))
-	switch length := len(customer); length > 13 {
-	case true:
+	//switch shorts statement
+	// switch length := len(customer); length > 13 {
+	// case true:
+	// 	fmt.Println("apakah anda ingin membuat member?")
+	// case false:
+	// 	fmt.Println("terima kasih sudah menjadi member")
+	// }
+
+	length := len(customer)
+	switch {
+	case length > 13:
 		fmt.Println("apakah anda ingin membuat member?")
-	case false:
+	case length == 12:
 		fmt.Println("terima kasih sudah menjadi member")
+	default:
+		fmt.Println("stand by")
 	}
 }
