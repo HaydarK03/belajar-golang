@@ -69,5 +69,9 @@ func main() {
 	closure()
 
 	//defer
-	runApp()
+	runApp(10)
+
+	//panic
+	runApps(true)
+
 }
