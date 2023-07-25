@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-// jika terdapat sistem erro, panic digunakan untuk menghentikan program
+// jika terdapat sistem error, panic digunakan untuk menghentikan program
+// recover digunakan untuk mengambil data dari panic, recover akan dijalankan ketika program error
 func endApp() {
 	massage := recover()
 	if massage != nil {
