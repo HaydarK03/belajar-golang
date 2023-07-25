@@ -67,4 +67,7 @@ func main() {
 
 	//closure
 	closure()
+
+	//defer
+	runApp()
 }
