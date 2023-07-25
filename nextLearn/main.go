@@ -21,4 +21,9 @@ func main() {
 	switchOp()
 	fmt.Println("//for loops")
 	forLoops()
+	fmt.Println("//break")
+	breaks()
+	fmt.Println("//continue")
+	continus()
+
 }

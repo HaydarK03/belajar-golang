@@ -25,6 +25,8 @@ func forLoops() {
 		fmt.Println(slice[i])
 	}
 
+	// akses data menggunakan range
+	// gunakan "_" jika variable tidak digunakan
 	for i, value := range slice {
 		fmt.Println("index", i, "=", value)
 	}
